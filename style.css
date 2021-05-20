@@ -1,0 +1,55 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+}
+
+h2,
+h3 {
+  color: hsl(0, 0%, 100%);
+}
+.info p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Inter", sans-serif;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.container {
+  background-color: hsl(244, 38%, 16%);
+  height: 446px;
+  width: 540px;
+}
+
+.main {
+  display: flex;
+  margin: 161px 143px;
+}
+.info {
+  padding: 33px 90px 0px 55px;
+}
+
+.info-2 {
+  display: flex;
+  padding: 58px 90px 0px 55px;
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+.flex-item,
+p {
+  margin-top: -10px;
+}
